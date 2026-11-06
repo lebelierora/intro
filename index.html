@@ -33,6 +33,10 @@ img.info{width:100%;height:auto;border-radius:12px;display:block}
 .videoslot{border:2px dashed #C9A227;background:#FFF6D8;border-radius:12px;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;text-align:center;color:#8a6d1f;font-size:14px;margin:8px 0;padding:12px}
 .ggrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .ggrid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
+.catgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.catbtn{display:flex;align-items:center;justify-content:center;background:#fff;border:2px solid #A33327;color:#A33327;text-decoration:none;font-weight:bold;font-size:15px;border-radius:999px;padding:11px 6px;text-align:center}
+.catbtn.season{background:#E9C86B;border-color:#C9A227;color:#40312F}
+.catbtn.wide{grid-column:1/-1;background:#A33327;color:#fff}
 table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden}
 th,td{border:1px solid #EEE4DA;padding:8px;text-align:left;vertical-align:top}
 th{background:#A33327;color:#fff;font-size:13px;white-space:nowrap}
@@ -54,6 +58,22 @@ footer a.btn.sub{background:#fff;color:#A33327;border:2px solid #A33327}
 
 <!-- 素材A：店舗外観の写真（今のヒーローと同じ写真） -->
 <img class="info" src="intro-top.jpg" alt="赤いコンテナのお店「るべりえ」の外観（昼）">
+
+<section id="shop">
+<h2>お買い物はこちら</h2>
+<p style="font-size:13px;margin:0 0 10px">タップで、ネットショップのカテゴリページへ移動します。</p>
+<div class="catgrid">
+<a class="catbtn season" href="https://lebelierora.stores.jp/?category_id=6aed4bf943ae2aed4d583153" target="_top">季節メニュー</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63e4a24d39da5f77516d6679" target="_top">すべての商品</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63e4a258d77a6f6b97dce041" target="_top">ホールピザ</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63e4a25e7c42ee6dda4051f2" target="_top">揚げピザ</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63f768f93313d223fe2fbbdf" target="_top">スイーツピザ</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63f7696f622396231b1e0d23" target="_top">スイーツ揚げピザ</a>
+<a class="catbtn" href="https://lebelierora.stores.jp/?category_id=63e4a2637c42ee6dda4051f5" target="_top">惣菜</a>
+<a class="catbtn" href="https://lebelierora.github.io/guide/" target="_top">美味しい温め方</a>
+<a class="catbtn wide" href="https://lebelierora.github.io/shindan/" target="_top">迷ったらコレ!! おすすめ診断＆ルーレット</a>
+</div>
+</section>
 
 <section>
 <h2>お店の情報</h2>
